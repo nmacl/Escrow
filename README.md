@@ -1,5 +1,5 @@
 # Escrow
-I haven't tested this on a testnet or a mainnet. Susceptible to re entrancy attacks. Deploy on your favorite solidity supported block chain.
+I haven't tested this on a testnet or a mainnet. Susceptible to re entrancy attacks. Deploy on your favorite solidity supported block chain. Escrows cannot be created concurrently for buyers, but can be for sellers. 
 
 # Purpose
 Create an escrow between a buyer and seller. Primarily managed by the admins, or contract owner. Buyer or seller can cancel the escrow once expiration block is reached.
